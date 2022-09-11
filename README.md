@@ -50,7 +50,7 @@ $ npm run db:seed
 1. Login [DONE]
 2. List of available Carbon certificates (no owner) [DONE] (endpoint: GET http://localhost:3000/carbon-certificates)
 3. List of owned Carbon certificates (owned by current user) [DONE] (endpoint: GET http://localhost:3000/carbon-certificates?status=owned)
-4. Transfer my own Carbon certificate to the another existing user (based on the User ID parameter) [DONE] (endpoint: POST http://localhost:3000/carbon-certificates/transfer/<carbonId> body: { "userId": "uuid" })
+4. Transfer my own Carbon certificate to the another existing user (based on the User ID parameter) [DONE] (endpoint: POST http://localhost:3000/carbon-certificates/transfer/[carbonId] body: { "userId": "uuid" })
 
 
 ## Test
